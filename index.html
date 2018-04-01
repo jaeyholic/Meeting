@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>App Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600" rel="stylesheet">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+    <script src="vendors/jquery.easings.min.js"></script>
+
+
+    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+    <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    
+    
+    <script>
+        $(document).ready(function() {
+	       $('#fullpage').fullpage();
+        });
+    </script>
+</head>
+<body>
+    
+    <!--I have linked everything for fullpage.js above, just start coding here :D -->
+    <div id="fullpage">
+        <div class="section">
+            <div class="landing">
+                <div class="landingWrapper">
+                    <div class="nav">
+                        <a href="images/logo.png" alt="logo" class="logo"></a>
+                        <div class="pages">
+                            <a href="#">How it works</a>
+                            <a href="#">App features</a>
+                            <a href="#">About us</a>
+                            <a href="#" class="btnOne">Signup</a>
+                        </div>
+                    </div>
+                    <div class="landingContent">
+                        <div class="contentLeft">
+                            <h1>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Eum, debitis.</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam doloremque temporibus praesentium in. Accusamus magnam accusantium esse temporibus mollitia, quo vitae suscipit rem repudiandae et unde, labore iusto beatae autem.</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur <br>adipisicing elit.</p>
+                            <a href="#" class="btnTwo">Download App</a>
+                        </div>
+
+                        <div class="contentRight">
+                            <img src="images/iphoneX_inHand.png" alt="iPhone in hand" class="iphoneHand">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="features">
+                <div class="date">
+                    <img src="images/cal_icon.png" alt="calender icon">
+                    <h1>Lorem ipsum dolor sit.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>elit. Nulla, dignissimos?</p>
+                </div>
+
+                <div class="time">
+                    <img src="images/clock_icon.png" alt="clock icon">
+                    <h1>Lorem ipsum dolor sit.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Porro eligendi omnis accusamus voluptas voluptates <br>cumque quidem earum! Iste, beatae ab.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="groups">
+                <div class="groupsWrapper">
+                    <div class="groupsContent">
+                        <div class="contentLeft">
+                            <img src="images/search_icon.png" alt="search icon">
+                            <h1>Lorem ipsum dolor sit.</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi expedita dicta <br>veritatis, doloremque voluptatem fugit!</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Dolorem culpa ipsam accusantium?</p>
+                        </div>
+
+                        <div class="contentRight">
+                            <img src="images/people_groups.png" alt="contacts lists image" class="groupsImage">
+                        </div>
+                    </div>
+
+                    <div class="footer">
+                        <p>&copy; 2018 Meeting</p>
+                        <div class="pagesRight">
+                            <a href="#"><p>Terms</p></a>
+                            <a href="#"><p>Privacy</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>    
+</html>
